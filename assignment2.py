@@ -33,7 +33,5 @@ def main():
 			cryptPass = line[1]
 			print "Lets crack the password for: " + user
 			findPass(cryptPass,user)
-		if(found == None or user == None):
-				print "[*] User does not exist or user does not have a password."
 if __name__=="__main__" :
 	main()
