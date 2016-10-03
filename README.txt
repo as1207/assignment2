@@ -8,7 +8,7 @@ First lets get started by placing the passcrack.py file and the dict.txt in the 
 
 Once they are in the same area you need to open up your handy dandy terminal and type the below commands (assuming these 2 files are in your documents folder)
 cd Documents
-sudo python passcrack.py -f /etc/shadow
+sudo python assignment2.py /etc/shadow
 
 Now it should be all good and based on what is in your dictionary file you will get the passwords for all users.
 Enjoy cracking the passwords.
